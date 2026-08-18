@@ -1,0 +1,187 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ /* Estilo do conteúdo principal */
+main {
+    flex: 1;
+}
+
+/* Estilo do cabeçalho */
+
+header {
+    background-color: #0078d7;
+    padding: 15px;
+}
+
+/* Estilo da barra de navegação */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo do título da navegação */
+nav h2 {
+    color: white;
+}
+
+/* Estilo da lista de links de navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilo dos links de navegação */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Efeito de hover nos links de navegação */
+nav a:hover {
+    color: #4da6ff;
+}
+
+/* Estilo do botão de alternância de tema */
+
+section {
+    background: white;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo dos títulos */
+h1, h2, h3 {
+    color: #0078d7;
+    margin-bottom: 15px;
+}
+
+/* Estilo dos projetos no portfólio */
+.projeto {
+    border-left: 4px solid #0078d7;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo dos campos de entrada e textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo do botão de envio */
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Estilo do corpo da página no modo escuro */
+.dark-mode {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+/* Estilo do conteúdo principal no modo escuro */
+.dark-mode section {
+    background-color: #3a3a3a;
+}
+
+/* Estilo dos títulos no modo escuro */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+    color: white;
+}
+
+/* Estilo do cabeçalho e rodapé no modo escuro */
+.dark-mode header,
+.dark-mode footer {
+    background-color: #1e1e1e;
+}
+
+/* Estilo da barra de navegação no modo escuro */
+.dark-mode nav a {
+    color: white;
+}
+
+/* Efeito de hover nos links de navegação no modo escuro */
+.dark-mode nav a:hover {
+    color: #4a4a4a;
+}
+
+/* Estilo do botão de alternância de tema no modo escuro */
+.dark-mode #temaBtn {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+/* Efeito de hover no botão de alternância de tema no modo escuro */
+.dark-mode button {
+    background-color: #3a3a3a;
+    color: white;
+    border: 1px solid #555;
+}
+.dark-mode button:hover {
+    background-color: #4a4a4a;
+}
+
+/* Estilo do formulário no modo escuro */
+.dark-mode footer {
+    background: none;
+    color: white;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+`
