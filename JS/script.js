@@ -2,15 +2,31 @@
 
 const temaBtn = document.getElementById("temaBtn");
 
-console.log(temaBtn);
+// Carrega o tema salvo
+if (localStorage.getItem("tema") === "escuro") {
+    document.body.classList.add("dark-mode");
+
+    if (temaBtn) {
+        temaBtn.textContent = "☀️ Tema Claro";
+    }
+}
+
+// Evento do botão
 if (temaBtn) {
     temaBtn.addEventListener("click", () => {
+
         document.body.classList.toggle("dark-mode");
 
         if (document.body.classList.contains("dark-mode")) {
+
+            localStorage.setItem("tema", "escuro");
             temaBtn.textContent = "☀️ Tema Claro";
+
         } else {
+
+            localStorage.setItem("tema", "claro");
             temaBtn.textContent = "🌙 Tema Escuro";
+
         }
     });
 }

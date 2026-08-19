@@ -58,6 +58,8 @@ nav a:hover {
     color: #4da6ff;
 }
 
+
+
 /* Estilo do botão de alternância de tema */
 
 section {
@@ -80,6 +82,21 @@ h1, h2, h3 {
     padding-left: 15px;
     margin-bottom: 20px;
 }
+
+.projeto a {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projeto a:visited {
+    color: #0078d7;
+}
+
+.projeto a:hover {
+    text-decoration: underline;
+}
+
 
 /* Estilo do formulário */
 form {
@@ -113,6 +130,7 @@ footer {
     padding: 20px;
 }
 
+/* Tema escuro */
 
 /* Estilo do corpo da página no modo escuro */
 .dark-mode {
@@ -145,7 +163,31 @@ footer {
 
 /* Efeito de hover nos links de navegação no modo escuro */
 .dark-mode nav a:hover {
-    color: #4a4a4a;
+    color: white;
+}
+
+/* Estilo dos projetos no portfólio no modo escuro */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+    color: white;
+}
+
+.dark-mode .projeto a {
+    color: white;
+    font-weight: bold;
+}
+
+.dark-mode .projeto {
+    border-left: 4px solid white;
+}
+
+.projeto a {
+    display: block;
+    margin-top: 15px;
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Estilo do botão de alternância de tema no modo escuro */
@@ -164,6 +206,7 @@ footer {
 .dark-mode button:hover {
     background-color: #4a4a4a;
 }
+
 
 /* Estilo do formulário no modo escuro */
 .dark-mode footer {
